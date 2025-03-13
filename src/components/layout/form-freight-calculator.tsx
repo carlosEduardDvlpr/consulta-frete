@@ -126,7 +126,6 @@ export function FreightCalculator() {
     });
     const json = await response.json();
     if (json) setResult(json);
-    // console.log(result, 'estou aqui')
   }
 
   const formatCep = (cep: string) => {
@@ -212,13 +211,13 @@ export function FreightCalculator() {
                     name="weight"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Peso (kg)</FormLabel>
+                        <FormLabel>Peso</FormLabel>
                         <FormControl>
                           <Input
                             type="number"
                             step="0.01"
                             min="0"
-                            placeholder="0.00"
+                            placeholder="kg"
                             {...field}
                           />
                         </FormControl>
@@ -233,13 +232,13 @@ export function FreightCalculator() {
                       name="height"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Altura (cm)</FormLabel>
+                          <FormLabel>Altura</FormLabel>
                           <FormControl>
                             <Input
                               type="number"
                               step="0.1"
                               min="0"
-                              placeholder="0"
+                              placeholder="cm"
                               {...field}
                             />
                           </FormControl>
@@ -252,13 +251,13 @@ export function FreightCalculator() {
                       name="width"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Largura (cm)</FormLabel>
+                          <FormLabel>Largura</FormLabel>
                           <FormControl>
                             <Input
                               type="number"
                               step="0.1"
                               min="0"
-                              placeholder="0"
+                              placeholder="cm"
                               {...field}
                             />
                           </FormControl>
@@ -271,13 +270,13 @@ export function FreightCalculator() {
                       name="length"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Comprimento (cm)</FormLabel>
+                          <FormLabel>Comprimento</FormLabel>
                           <FormControl>
                             <Input
                               type="number"
                               step="0.1"
                               min="0"
-                              placeholder="0"
+                              placeholder="cm"
                               {...field}
                             />
                           </FormControl>
@@ -289,7 +288,7 @@ export function FreightCalculator() {
                 </div>
               </div>
             </CardContent>
-            <CardFooter className="flex flex-col space-y-4">
+            <CardFooter className="flex flex-col space-y-4 mt-4">
               <Button type="submit" className="w-full">
                 Calcular Frete
               </Button>
