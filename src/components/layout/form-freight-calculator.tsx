@@ -144,7 +144,8 @@ export function FreightCalculator() {
           <div className="flex items-center gap-2">
             <Truck className="h-6 w-6 text-primary" />
             <CardTitle className="text-2xl">Calculadora de Frete</CardTitle>
-          </div>
+          </div>{' '}
+          <p>API MelhorEnvio</p>
           <CardDescription>
             Preencha os dados abaixo para calcular o valor do frete
           </CardDescription>
@@ -297,9 +298,8 @@ export function FreightCalculator() {
         </Form>{' '}
       </Card>
       <div className="py-4">
-         {result && <ShippingOptions shippingOptions={result} />}
+        {result && <ShippingOptions shippingOptions={result} />}
       </div>
-     
     </>
   );
 }
