@@ -1,14 +1,38 @@
 # O Melhor Envio
 
-O **Melhor Envio** é uma plataforma brasileira que facilita o cálculo de fretes e a gestão de envios para e-commerces, conectando lojistas com diversas transportadoras (Correios, Jadlog, Loggi, etc.). Ele oferece uma API robusta para desenvolvedores, com as seguintes funcionalidades principais:
+O Melhor Envio é uma plataforma brasileira que facilita a contratação de serviços de frete para e-commerces, integrando diversas transportadoras em um único ambiente.
 
-## Funcionalidades principais
+## Funcionalidades
 
-1. **Cálculo de frete**: Permite calcular preços e prazos de entrega de várias transportadoras, considerando peso, dimensões e localizações de origem e destino.
-2. **Geração de etiquetas**: Facilita a criação de etiquetas de envio com todas as informações necessárias para a entrega.
-3. **Rastreamento de encomendas**: A API permite integrar o rastreamento de pacotes diretamente no sistema do lojista ou marketplace.
-4. **Pontos de coleta**: Informa locais de postagem e oferece coleta no endereço do lojista (via Loggi).
+- **Cálculo e Contratação de Fretes**: Permite calcular os custos de envio e contratar fretes com diversas transportadoras.
+- **Geração de Etiquetas**: Criação de etiquetas de envio, facilitando o processo logístico.
+- **Rastreamento de Encomendas**: Acompanhamento em tempo real das entregas.
+- **Logística Reversa**: Sistema para trocas e devoluções de encomendas.
+- **Programa de Vantagens "Melhor Nível"**: Oferece descontos progressivos conforme o volume de envios.
 
-## Sistema de cobrança
+## Modelo de Cobrança
 
-O sistema de cobrança do Melhor Envio é simples e direto, cobrando apenas pelos fretes utilizados, sem taxas fixas ou de adesão. Ele oferece diversas formas de pagamento e possibilita que os lojistas obtenham descontos conforme o volume de envios. Isso facilita a gestão financeira e a logística para e-commerces.
+- Não há taxas de adesão ou mensalidades.
+- O pagamento é feito apenas pelas etiquetas de frete contratadas.
+- Descontos progressivos através do programa "Melhor Nível".
+
+## Transportadoras Parceiras
+
+- **Azul Cargo Express**
+- **Buslog**
+- **Correios**
+- **Jadlog**
+- **J&T Express**
+- **LATAM Cargo**
+- **Loggi**
+
+## Detalhes da API
+
+A API do Melhor Envio permite integração com plataformas de e-commerce e sistemas diversos, oferecendo funcionalidades como:
+
+- **Cálculo de Fretes**: Cotações em tempo real de diversas transportadoras.
+- **Geração de Etiquetas**: Criação automatizada de etiquetas.
+- **Rastreamento**: Monitoramento de encomendas.
+- **Logística Reversa**: Gestão de devoluções.
+
+A integração com a API é gratuita e a documentação está disponível em [docs.melhorenvio.com.br](https://docs.melhorenvio.com.br/docs/introducao-a-api).
