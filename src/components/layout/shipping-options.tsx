@@ -92,7 +92,7 @@ export default function ShippingOptions({
 
   return (
     <div className="w-full max-w-3xl mx-auto">
-      <div className="mb-6 flex items-center justify-between">
+      <div className="mb-6 sm:flex items-center justify-between">
         <h2 className="text-2xl font-bold">Opções de Frete</h2>
         <div className="flex items-center gap-2">
           <span className="text-sm text-muted-foreground">Ordenar por:</span>
